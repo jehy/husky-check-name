@@ -1,0 +1,38 @@
+{
+  "name": "husky-check-name",
+  "version": "0.0.1",
+  "bin": {
+    "husky-check-email": "index.js"
+  },
+  "description": "check user name against email before git commit",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jehy/husky-check-email.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint index.js lib.js test",
+    "test": "mocha -t 10000 --exit",
+    "check_coverage": "nyc check-coverage --lines 100 --functions 100 --branches 100",
+    "coverage": "nyc npm test",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "prepublishOnly": "npm test && npm run coverage && npm run check_coverage && npm run lint"
+  },
+  "author": "Jehy http://github.com/jehy",
+  "devDependencies": {
+    "coveralls": "^3.0.6",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-loader": "^3.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^6.2.0",
+    "chai": "^4.2.0",
+    "nyc": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "license": "MIT"
+}
