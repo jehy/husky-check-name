@@ -1,8 +1,8 @@
 {
   "name": "husky-check-name",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "bin": {
-    "husky-check-email": "index.js"
+    "husky-check-name": "index.js"
   },
   "description": "check user name against email before git commit",
   "repository": {
