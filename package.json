@@ -5,6 +5,13 @@
     "husky-check-name": "index.js"
   },
   "description": "check user name against email before git commit",
+  "keywords": [
+    "hooks",
+    "git",
+    "husky",
+    "name",
+    "email"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:jehy/husky-check-email.git"
