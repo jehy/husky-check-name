@@ -17,9 +17,9 @@ if (proposedName.toLowerCase() !== userName.toLowerCase())
   colors.red(`Your email is set to "${userEmail}"`);
   colors.red(`Your name is set to "${userName}"`);
   colors.red('You can fix this with following command:');
-  colors.red(`git config --global user.name <your_name>${proposedName}`);
+  colors.red(`git config --global user.name "${proposedName}"`);
   colors.red('or, only for local repo,');
-  colors.red(`git config user.name <your_name>${proposedName}`);
+  colors.red(`git config user.name "${proposedName}"`);
   process.exit(1);
 }
 // console.log('email check okay');
