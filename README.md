@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/husky-check-name.svg)](https://npm.im/husky-check-name)
 [![license](https://img.shields.io/npm/l/husky-check-name.svg)](https://npm.im/husky-check-name)
-[![Build Status](https://travis-ci.org/jehy/husky-check-name.svg?branch=master)](https://travis-ci.org/jehy/husky-check-name)
+![Build](https://github.com/jehy/husky-check-name/workflows/Build/badge.svg)
 [![dependencies Status](https://david-dm.org/jehy/husky-check-name/status.svg)](https://david-dm.org/jehy/husky-check-name)
 [![devDependencies Status](https://david-dm.org/jehy/husky-check-name/dev-status.svg)](https://david-dm.org/jehy/husky-check-name?type=dev)
 [![Coverage Status](https://coveralls.io/repos/github/jehy/husky-check-name/badge.svg?branch=master)](https://coveralls.io/github/jehy/husky-check-name?branch=master)
